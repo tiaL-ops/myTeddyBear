@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(253, 192, 235);
+}
+.cute-text {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 20px 30px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Sour Gummy', cursive;
+    color: #333;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+.text{
+    font-family: 'Sour Gummy', cursive;
+}
+.popup{
+    display:none;
+}

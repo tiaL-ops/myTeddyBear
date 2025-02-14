@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To my Valentine 🧸</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col items-center justify-center h-screen bg-pink-200">
+    <p class="text">
+        Happy Valentine's Day Baby ❤️
+    </p>
+
+    <img src="us.gif" alt="Us" class="mt-4 rounded-full">
+
+    <img src="env.gif" width="300px" class="cursor-pointer mt-6" onclick="openPopup()">
+
+    <div id="popup" class="hidden fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-lg shadow-lg text-center">
+        <p class="cute-text text-lg font-semibold text-gray-700">
+            Thank you for being kind and soft with me 🥰 <br>
+            I LOVE YOU
+        </p>
+        <img src="ily.gif" alt="I Love You" class="mt-4">
+        <button onclick="closePopup()" class="mt-4 px-4 py-2 bg-red-500 text-white rounded-lg">Close</button>
+    </div>
+
+    <script>
+        function openPopup() {
+            document.getElementById("popup").classList.remove("hidden");
+        }
+
+        function closePopup() {
+            document.getElementById("popup").classList.add("hidden");
+        }
+    </script>
+</body>
+</html>
